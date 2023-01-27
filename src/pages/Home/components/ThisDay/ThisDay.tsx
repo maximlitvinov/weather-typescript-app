@@ -5,7 +5,7 @@ import style from './ThisDay.module.scss';
 
 const ThisDay = () => {
   return (
-    <header className={style.this__day}>
+    <div className={style.this__day}>
       <div className={style.top__block}>
         <div className={style.top__block__wrapper}>
           <div className={style.this__temperature}>20 °C</div>
@@ -21,7 +21,7 @@ const ThisDay = () => {
           City: <span>Krasnodar</span>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
